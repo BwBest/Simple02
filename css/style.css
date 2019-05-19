@@ -1,0 +1,302 @@
+body{
+  font-family: Georgia, serif;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  margin: auto;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+header img{
+max-width: 100%;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.containerfull {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 0
+}
+
+header h1{
+  color: #95AD20;
+  text-align: center;
+  margin: auto;
+  font-size: 6vh;
+  line-height: 0.8em;
+  outline: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+header h2{
+  color: #646464;
+  font-weight: 400;
+  font-size: 4vh;
+  line-height: 0.8em;
+  padding: 0;
+  margin-top: 1vh;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-bottom: 0.1vh solid rgb(0,0,0,0.3);
+}
+
+header li{
+display: inline;
+width: 100%;
+margin:0;
+padding: 0;
+}
+
+header a{
+width: 100%;
+padding: 1vh 5vw 1vh 5vw;
+text-decoration: none;
+margin-bottom: 0;
+color: #0EA2CC;
+line-height: 6em;
+font-weight: 400;
+transition: all 0.5s ease;
+}
+
+#centerbutton{
+  border-left: 0.05vw solid grey;
+  border-right: 0.05vw solid grey;
+}
+
+header a:hover{
+  background-color: #d9d9d9;
+}
+
+.showcase h2{
+color: #646464;
+font-weight: 400;
+font-size: 4vh;
+padding: 0;
+margin: 1vh auto;
+
+border-bottom: 0.05vh solid grey;
+border-top: 0.05vh solid grey;
+text-align: center;
+}
+
+.leftside{
+
+  display: inline;
+  width: 25vw;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  float: left;
+
+}
+
+.leftside img{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width: 100%;
+}
+
+.SlideImage{
+  display: inline;
+  float: right;
+  height: auto;
+  margin-top:6.5vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1800px) {
+  .leftside{
+    float: none;
+    text-align: center;
+  }
+  .SlideImage{
+    float: none;
+  }
+}
+
+.undershowcase h2{
+  color: #646464;
+  font-weight: 400;
+  font-size: 4vh;
+  padding: 0;
+  margin: 1vh auto;
+  width: 75%;
+  border-bottom: 0.05vh solid grey;
+  border-top: 0.05vh solid grey;
+  text-align: center;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.box1{
+  max-width: 300px;
+  margin: auto;
+  display: inline;
+
+}
+
+.imgbox{
+  padding-bottom: 1vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #83CCE0;
+  display: inline-block;
+  margin-left: 1vw;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 1vh;
+
+}
+
+.imgbox img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 250px;
+}
+
+.imgbox p{
+
+  color: #fff;
+  padding: 0.3vh 0.1vw 0.3vh 0.1vw;
+}
+
+.imgbox h2{
+  padding-top: 0.3vh;
+  color: #fff;
+  font-size: 2vh;
+  font-weight: 400;
+
+}
+
+.imgbox1{
+  padding-bottom: 0.1vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #83CCE0;
+  display: inline-block;
+  margin-left: 1vw;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1vh;
+}
+
+.imgbox1 h2{
+  color: #fff;
+  font-weight: 400;
+  font-size: 2vh;
+}
+
+footer{
+  background-color: #e6e6e6;
+  margin: 1vh 0 0 0;
+  padding: 0.3vh;
+  text-align: center;
+}
+
+footer h2{
+  color: #333333;
+  font-weight:400;
+  font-size: 1.4vh;
+}
+
+span{
+  font-weight: 400;
+  font-size: 2.3vh;
+}
+
+.bottomtext{
+  font-weight: 400;
+  text-align: center;
+  font-size:2vh;
+}
+
+.bottomtext h3{
+  color:#49b3fa;
+  font-size: 4vh;
+}
+.bottomtext p{
+  color: #646464;
+}
+
+.services h2{
+  padding:2vh;
+  color: #646464;
+  text-align: center;
+
+}
+
+#right{
+
+  padding: 1vh 0 1vh 0;
+}
+
+.services a{
+  text-decoration: none;
+  font-size: 3vh;
+  color: #646464;
+}
+
+.services p{
+  color: #646464;
+  font-size: 2.2vh;
+}
+
+.inputarea{
+  text-align: center;
+  padding: 10px 20px;
+}
+
+input{
+  border: 2px solid #0099cc;
+  border-radius: 4px;
+
+  font-size: 2vh;
+}
+
+textarea{
+  border: 2px solid #0099cc;
+  border-radius: 4px;
+    font-size: 1.8vh;
+    margin:auto;
+    width: 80%;
+}
+
+.contactimage img{
+  width: 60vw;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contacttel{
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  height: 20vh;
+  width: auto;
+  text-align: center;
+  padding: 1vh 0 1vh 0;
+  margin-bottom: 1vh;
+}
+
+.contacttel a{
+  text-decoration: none;
+  color: #333;
+  font-size: 2.5vh;
+}
+
+.contacttel p{
+  font-size: 3vh;
+  color: #333;
+  text-align: center;
+}
